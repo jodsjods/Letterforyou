@@ -1,0 +1,158 @@
+html,
+body {
+  height: 100%;
+  background-color: #ebaae7;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.cover-page {
+  position: relative;
+  text-align: center;
+  color: white;
+  border: 2px solid #000; /* Border color and width */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.fam {
+  position: relative;
+  text-align: center;
+  color: white;
+  border: 2px solid #000; /* Border color and width */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.fam{
+  width: 50%;
+  height: 120%;
+  object-fit: cover; /* Ensures the image covers the area */
+}
+#kriz{
+  width: 30%;
+  height: 50%;
+  object-fit: cover; /* Ensures the image covers the area */
+}
+.cover-page img {
+  width: 100%;
+  height: 120%;
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+.cover-page .cover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.cover-page-container {
+  max-width: 1000px; /* Adjust this value to set the maximum width */
+  margin: 0 auto; /* Center the container */
+}
+
+.cover-page .cover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.featurette-image {
+    width: 100%;
+    height:450px;
+    max-height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.custom-jumbotron {
+  border: 0.5px solid #000; /* Border color and width */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the border */
+  background-color: #f8f9fa; /* Background color */
+  text-align: center;
+}
+.custom-video {
+  max-width: 100%; /* Make sure the video fits inside the container */
+  border-radius: 8px; /* Rounded corners for the video */
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Stylish button */
+.styled-button {
+  background-color: #8d0899;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.styled-button:hover {
+  background-color: #8b369c;
+  transform: translateY(-2px);
+}
+
+.styled-button:active {
+  background-color: #cf21a9;
+  transform: translateY(0px);
+}
